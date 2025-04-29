@@ -1,0 +1,70 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="1200" height="600" fill="url(#paint0_linear)"/>
+  
+  <!-- Delhi skyline silhouette -->
+  <path d="M0 300L20 300L40 280L60 280L80 260L100 270L120 260L140 280L160 290L180 280L200 260L220 240L240 250L260 230L280 220L300 240L320 230L340 240L360 220L380 230L400 210L420 220L440 200L460 210L480 190L500 200L520 180L540 190L560 170L580 180L600 160L620 170L640 150L660 160L680 140L700 150L720 130L740 140L760 120L780 130L800 110L820 120L840 100L860 110L880 90L900 100L920 80L940 90L960 70L980 80L1000 60L1020 70L1040 50L1060 60L1080 40L1100 50L1120 30L1140 40L1160 20L1180 30L1200 10V300H0Z" fill="#1A1A1A"/>
+  
+  <!-- India Gate simplified -->
+  <rect x="580" y="150" width="40" height="150" fill="#333333"/>
+  <path d="M560 150H640V170H560V150Z" fill="#333333"/>
+  <path d="M560 200H640V220H560V200Z" fill="#333333"/>
+  <path d="M580 120H620V150H580V120Z" fill="#333333"/>
+  <path d="M590 100H610V120H590V100Z" fill="#333333"/>
+  
+  <!-- Stylized road elements -->
+  <rect x="0" y="300" width="1200" height="300" fill="#1A1A1A"/>
+  <path d="M0 300H1200" stroke="#FFD700" stroke-width="5"/>
+  
+  <!-- Road markings -->
+  <rect x="100" y="400" width="80" height="10" fill="white"/>
+  <rect x="300" y="400" width="80" height="10" fill="white"/>
+  <rect x="500" y="400" width="80" height="10" fill="white"/>
+  <rect x="700" y="400" width="80" height="10" fill="white"/>
+  <rect x="900" y="400" width="80" height="10" fill="white"/>
+  <rect x="1100" y="400" width="80" height="10" fill="white"/>
+  
+  <!-- Cars on the road -->
+  <g transform="translate(200, 350) scale(0.4)">
+    <!-- Car 1 -->
+    <path d="M50 100H300C300 100 310 100 310 90V70C310 60 305 55 300 50L270 20C260 10 250 10 240 10H110C100 10 90 10 80 20L50 50C45 55 40 60 40 70V90C40 100 50 100 50 100Z" fill="#FFD700"/>
+    <rect x="60" y="40" width="120" height="40" rx="10" fill="#333333"/>
+    <rect x="190" y="40" width="80" height="40" rx="10" fill="#333333"/>
+    <circle cx="90" cy="100" r="20" fill="#1A1A1A"/>
+    <circle cx="90" cy="100" r="10" fill="#333333"/>
+    <circle cx="250" cy="100" r="20" fill="#1A1A1A"/>
+    <circle cx="250" cy="100" r="10" fill="#333333"/>
+  </g>
+  
+  <g transform="translate(800, 370) scale(0.4)">
+    <!-- Car 2 -->
+    <path d="M50 100H350C350 100 360 100 360 90V70C360 60 355 55 350 50L320 20C310 10 300 10 290 10H110C100 10 90 10 80 20L50 50C45 55 40 60 40 70V90C40 100 50 100 50 100Z" fill="#1E88E5"/>
+    <rect x="80" y="30" width="120" height="40" rx="10" fill="#333333"/>
+    <rect x="210" y="30" width="90" height="40" rx="10" fill="#333333"/>
+    <circle cx="110" cy="100" r="20" fill="#1A1A1A"/>
+    <circle cx="110" cy="100" r="10" fill="#333333"/>
+    <circle cx="290" cy="100" r="20" fill="#1A1A1A"/>
+    <circle cx="290" cy="100" r="10" fill="#333333"/>
+  </g>
+  
+  <!-- Company history timeline element -->
+  <line x1="250" y1="500" x2="950" y2="500" stroke="#FFD700" stroke-width="3"/>
+  <circle cx="300" cy="500" r="10" fill="#FFD700"/>
+  <text x="300" y="530" font-family="'Roboto', sans-serif" font-size="14" text-anchor="middle" fill="white">2022</text>
+  <circle cx="450" cy="500" r="10" fill="#FFD700"/>
+  <text x="450" y="530" font-family="'Roboto', sans-serif" font-size="14" text-anchor="middle" fill="white">Expansion</text>
+  <circle cx="600" cy="500" r="10" fill="#FFD700"/>
+  <text x="600" y="530" font-family="'Roboto', sans-serif" font-size="14" text-anchor="middle" fill="white">Fleet Growth</text>
+  <circle cx="750" cy="500" r="10" fill="#FFD700"/>
+  <text x="750" y="530" font-family="'Roboto', sans-serif" font-size="14" text-anchor="middle" fill="white">North India</text>
+  <circle cx="900" cy="500" r="10" fill="#FFD700"/>
+  <text x="900" y="530" font-family="'Roboto', sans-serif" font-size="14" text-anchor="middle" fill="white">Today</text>
+  
+  <!-- Linear gradient definition -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="600" y1="0" x2="600" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4B6CB7"/>
+      <stop offset="1" stop-color="#182848"/>
+    </linearGradient>
+  </defs>
+</svg>

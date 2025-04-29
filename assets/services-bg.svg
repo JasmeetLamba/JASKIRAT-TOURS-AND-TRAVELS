@@ -1,0 +1,125 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="1200" height="600" fill="url(#paint0_linear)"/>
+  
+  <!-- North India map stylized outline -->
+  <path d="M200 80C250 50 300 100 350 80C400 60 450 100 500 120C550 140 600 100 650 80C700 60 750 100 800 120C850 140 900 100 950 80C1000 60 1050 90 1100 70V300H100V100C120 90 150 110 200 80Z" fill="#1A1A1A" fill-opacity="0.2"/>
+  
+  <!-- Road network representing services across North India -->
+  <path d="M100 300C150 280 200 320 250 280C300 240 350 290 400 260C450 230 500 290 550 260C600 230 650 290 700 260C750 230 800 290 850 260C900 230 950 290 1000 260C1050 230 1100 280 1150 240V300H100V300Z" fill="#1A1A1A"/>
+  <path d="M100 298H1150" stroke="#FFD700" stroke-width="4"/>
+  
+  <!-- Major cities/destinations as dots -->
+  <circle cx="200" cy="240" r="10" fill="#FFD700"/> <!-- Delhi -->
+  <text x="200" y="225" font-family="'Roboto', sans-serif" font-size="14" text-anchor="middle" fill="#1A1A1A">Delhi</text>
+  
+  <circle cx="350" cy="260" r="8" fill="#FFD700"/> <!-- Jaipur -->
+  <text x="350" y="245" font-family="'Roboto', sans-serif" font-size="12" text-anchor="middle" fill="#1A1A1A">Jaipur</text>
+  
+  <circle cx="450" cy="230" r="8" fill="#FFD700"/> <!-- Agra -->
+  <text x="450" y="215" font-family="'Roboto', sans-serif" font-size="12" text-anchor="middle" fill="#1A1A1A">Agra</text>
+  
+  <circle cx="300" cy="180" r="8" fill="#FFD700"/> <!-- Chandigarh -->
+  <text x="300" y="165" font-family="'Roboto', sans-serif" font-size="12" text-anchor="middle" fill="#1A1A1A">Chandigarh</text>
+  
+  <circle cx="250" cy="150" r="8" fill="#FFD700"/> <!-- Shimla -->
+  <text x="250" y="135" font-family="'Roboto', sans-serif" font-size="12" text-anchor="middle" fill="#1A1A1A">Shimla</text>
+  
+  <circle cx="200" cy="120" r="8" fill="#FFD700"/> <!-- Manali -->
+  <text x="200" y="105" font-family="'Roboto', sans-serif" font-size="12" text-anchor="middle" fill="#1A1A1A">Manali</text>
+  
+  <circle cx="550" cy="200" r="8" fill="#FFD700"/> <!-- Lucknow -->
+  
+  <circle cx="400" cy="150" r="8" fill="#FFD700"/> <!-- Dehradun -->
+  <text x="400" y="135" font-family="'Roboto', sans-serif" font-size="12" text-anchor="middle" fill="#1A1A1A">Dehradun</text>
+  
+  <!-- Connection lines between cities -->
+  <line x1="200" y1="240" x2="350" y2="260" stroke="#FFD700" stroke-width="2" stroke-dasharray="4 2"/>
+  <line x1="200" y1="240" x2="450" y2="230" stroke="#FFD700" stroke-width="2" stroke-dasharray="4 2"/>
+  <line x1="200" y1="240" x2="300" y2="180" stroke="#FFD700" stroke-width="2" stroke-dasharray="4 2"/>
+  <line x1="300" y1="180" x2="250" y2="150" stroke="#FFD700" stroke-width="2" stroke-dasharray="4 2"/>
+  <line x1="300" y1="180" x2="400" y2="150" stroke="#FFD700" stroke-width="2" stroke-dasharray="4 2"/>
+  <line x1="250" y1="150" x2="200" y2="120" stroke="#FFD700" stroke-width="2" stroke-dasharray="4 2"/>
+  <line x1="200" y1="240" x2="550" y2="200" stroke="#FFD700" stroke-width="2" stroke-dasharray="4 2"/>
+  
+  <!-- Main road with vehicles -->
+  <rect x="0" y="300" width="1200" height="300" fill="#1A1A1A"/>
+  
+  <!-- Road markings -->
+  <rect x="100" y="450" width="80" height="10" fill="white"/>
+  <rect x="300" y="450" width="80" height="10" fill="white"/>
+  <rect x="500" y="450" width="80" height="10" fill="white"/>
+  <rect x="700" y="450" width="80" height="10" fill="white"/>
+  <rect x="900" y="450" width="80" height="10" fill="white"/>
+  <rect x="1100" y="450" width="80" height="10" fill="white"/>
+  
+  <!-- Various vehicles representing service offerings -->
+  <!-- Sedan -->
+  <g transform="translate(150, 380) scale(0.5)">
+    <path d="M50 100H300C300 100 310 100 310 90V70C310 60 305 55 300 50L270 20C260 10 250 10 240 10H110C100 10 90 10 80 20L50 50C45 55 40 60 40 70V90C40 100 50 100 50 100Z" fill="#1E88E5"/>
+    <rect x="60" y="40" width="120" height="40" rx="10" fill="#333333"/>
+    <rect x="190" y="40" width="80" height="40" rx="10" fill="#333333"/>
+    <circle cx="90" cy="100" r="20" fill="#1A1A1A"/>
+    <circle cx="90" cy="100" r="10" fill="#333333"/>
+    <circle cx="250" cy="100" r="20" fill="#1A1A1A"/>
+    <circle cx="250" cy="100" r="10" fill="#333333"/>
+  </g>
+  
+  <!-- SUV -->
+  <g transform="translate(400, 370) scale(0.5)">
+    <path d="M30 100H330C330 100 340 100 340 90V70C340 60 335 55 330 50L290 10C280 0 270 0 260 0H100C90 0 80 0 70 10L30 50C25 55 20 60 20 70V90C20 100 30 100 30 100Z" fill="#455A64"/>
+    <rect x="50" y="20" width="130" height="50" rx="10" fill="#333333"/>
+    <rect x="190" y="20" width="100" height="50" rx="10" fill="#333333"/>
+    <circle cx="100" cy="100" r="25" fill="#1A1A1A"/>
+    <circle cx="100" cy="100" r="15" fill="#333333"/>
+    <circle cx="270" cy="100" r="25" fill="#1A1A1A"/>
+    <circle cx="270" cy="100" r="15" fill="#333333"/>
+  </g>
+  
+  <!-- MPV/Innova -->
+  <g transform="translate(700, 360) scale(0.5)">
+    <path d="M20 100H380C380 100 390 100 390 90V70C390 60 385 55 380 50L340 0C330 -10 320 -10 310 -10H90C80 -10 70 -10 60 0L20 50C15 55 10 60 10 70V90C10 100 20 100 20 100Z" fill="#263238"/>
+    <rect x="40" y="10" width="130" height="60" rx="10" fill="#333333"/>
+    <rect x="180" y="10" width="100" height="60" rx="10" fill="#333333"/>
+    <rect x="290" y="10" width="70" height="60" rx="10" fill="#333333"/>
+    <circle cx="90" cy="100" r="25" fill="#1A1A1A"/>
+    <circle cx="90" cy="100" r="15" fill="#333333"/>
+    <circle cx="310" cy="100" r="25" fill="#1A1A1A"/>
+    <circle cx="310" cy="100" r="15" fill="#333333"/>
+  </g>
+  
+  <!-- Premium Car -->
+  <g transform="translate(950, 390) scale(0.5)">
+    <path d="M40 100H320C320 100 330 100 330 90V70C330 60 325 55 320 50L290 20C280 10 270 10 260 10H100C90 10 80 10 70 20L40 50C35 55 30 60 30 70V90C30 100 40 100 40 100Z" fill="#B71C1C"/>
+    <rect x="60" y="30" width="110" height="40" rx="10" fill="#333333"/>
+    <rect x="180" y="30" width="100" height="40" rx="10" fill="#333333"/>
+    <circle cx="100" cy="100" r="20" fill="#1A1A1A"/>
+    <circle cx="100" cy="100" r="10" fill="#333333"/>
+    <circle cx="260" cy="100" r="20" fill="#1A1A1A"/>
+    <circle cx="260" cy="100" r="10" fill="#333333"/>
+  </g>
+  
+  <!-- Service icons -->
+  <circle cx="200" cy="500" r="30" fill="#FFD700"/>
+  <text x="200" y="505" font-family="'Roboto', sans-serif" font-size="20" text-anchor="middle" fill="#1A1A1A">🚕</text>
+  
+  <circle cx="400" cy="500" r="30" fill="#FFD700"/>
+  <text x="400" y="505" font-family="'Roboto', sans-serif" font-size="20" text-anchor="middle" fill="#1A1A1A">✈️</text>
+  
+  <circle cx="600" cy="500" r="30" fill="#FFD700"/>
+  <text x="600" y="505" font-family="'Roboto', sans-serif" font-size="20" text-anchor="middle" fill="#1A1A1A">🏢</text>
+  
+  <circle cx="800" cy="500" r="30" fill="#FFD700"/>
+  <text x="800" y="505" font-family="'Roboto', sans-serif" font-size="20" text-anchor="middle" fill="#1A1A1A">🚗</text>
+  
+  <circle cx="1000" cy="500" r="30" fill="#FFD700"/>
+  <text x="1000" y="505" font-family="'Roboto', sans-serif" font-size="20" text-anchor="middle" fill="#1A1A1A">🏔️</text>
+  
+  <!-- Linear gradient definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="600" y1="0" x2="600" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3498DB"/>
+      <stop offset="1" stop-color="#2980B9"/>
+    </linearGradient>
+  </defs>
+</svg>

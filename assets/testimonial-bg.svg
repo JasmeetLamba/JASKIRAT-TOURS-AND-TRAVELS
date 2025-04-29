@@ -1,0 +1,68 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Light background gradient -->
+  <rect width="1200" height="600" fill="url(#paint0_linear)"/>
+  
+  <!-- Road path winding through -->
+  <path d="M0 400C200 350 400 450 600 350C800 250 1000 350 1200 300V600H0V400Z" fill="#1A1A1A"/>
+  <path d="M0.5 395.5H1199.5" stroke="#FFD700" stroke-width="5"/>
+  
+  <!-- Road markings -->
+  <rect x="100" y="450" width="80" height="10" fill="white"/>
+  <rect x="300" y="450" width="80" height="10" fill="white"/>
+  <rect x="500" y="450" width="80" height="10" fill="white"/>
+  <rect x="700" y="450" width="80" height="10" fill="white"/>
+  <rect x="900" y="450" width="80" height="10" fill="white"/>
+  <rect x="1100" y="450" width="80" height="10" fill="white"/>
+  
+  <!-- Decorative mountains/hills in the background -->
+  <path d="M0 300L100 220L200 280L300 200L400 250L500 180L600 230L700 170L800 220L900 180L1000 250L1100 200L1200 250V400H0V300Z" fill="#E0E0E0"/>
+  <path d="M0 350L100 270L200 330L300 250L400 300L500 230L600 280L700 220L800 270L900 230L1000 300L1100 250L1200 300V400H0V350Z" fill="#F0F0F0"/>
+  
+  <!-- Silhouette of a car on the road -->
+  <g transform="translate(400, 360) scale(0.6)">
+    <!-- Car body - stylized silhouette -->
+    <path d="M50 100H350C350 100 360 100 360 90V70C360 60 355 55 350 50L320 20C310 10 300 10 290 10H110C100 10 90 10 80 20L50 50C45 55 40 60 40 70V90C40 100 50 100 50 100Z" fill="#333333"/>
+    
+    <!-- Windows -->
+    <path d="M90 20H320L350 60H55L90 20Z" fill="#555555"/>
+    
+    <!-- Wheels -->
+    <circle cx="110" cy="100" r="25" fill="#1A1A1A"/>
+    <circle cx="110" cy="100" r="15" fill="#333333"/>
+    <circle cx="290" cy="100" r="25" fill="#1A1A1A"/>
+    <circle cx="290" cy="100" r="15" fill="#333333"/>
+    
+    <!-- Headlights -->
+    <circle cx="60" cy="70" r="5" fill="#FFD700"/>
+    <circle cx="340" cy="70" r="5" fill="#FF5555"/>
+  </g>
+  
+  <!-- Quotation mark stylized graphic elements -->
+  <path d="M300 100C300 89 309 80 320 80H360C371 80 380 89 380 100V140C380 151 371 160 360 160H340L330 180V160H320C309 160 300 151 300 140V100Z" fill="#FFD700" fill-opacity="0.2"/>
+  
+  <path d="M800 150C800 139 809 130 820 130H860C871 130 880 139 880 150V190C880 201 871 210 860 210H840L830 230V210H820C809 210 800 201 800 190V150Z" fill="#FFD700" fill-opacity="0.2"/>
+  
+  <!-- "Testimonials" text -->
+  <path d="M530 100H670" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M555 80L545 140" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M575 80L575 140" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M595 80C605 80 615 90 615 100C615 110 605 120 595 120H585V140" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M625 80V140" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M635 80H655V140" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M665 80V140" stroke="#1A1A1A" stroke-width="5"/>
+  
+  <!-- Star elements representing ratings -->
+  <path d="M400 250L410 230H430L415 215L425 195L400 210L375 195L385 215L370 230H390L400 250Z" fill="#FFD700"/>
+  <path d="M450 250L460 230H480L465 215L475 195L450 210L425 195L435 215L420 230H440L450 250Z" fill="#FFD700"/>
+  <path d="M500 250L510 230H530L515 215L525 195L500 210L475 195L485 215L470 230H490L500 250Z" fill="#FFD700"/>
+  <path d="M550 250L560 230H580L565 215L575 195L550 210L525 195L535 215L520 230H540L550 250Z" fill="#FFD700"/>
+  <path d="M600 250L610 230H630L615 215L625 195L600 210L575 195L585 215L570 230H590L600 250Z" fill="#FFD700"/>
+  
+  <!-- Linear gradient definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="600" y1="0" x2="600" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F8F8"/>
+      <stop offset="1" stop-color="#E8E8E8"/>
+    </linearGradient>
+  </defs>
+</svg>

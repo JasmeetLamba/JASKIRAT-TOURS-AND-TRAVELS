@@ -1,0 +1,98 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="1200" height="600" fill="url(#paint0_linear)"/>
+  
+  <!-- Communication & connection patterns -->
+  <path d="M0 200C100 150 200 250 300 200C400 150 500 250 600 200C700 150 800 250 900 200C1000 150 1100 250 1200 200V300H0V200Z" fill="#1A1A1A" fill-opacity="0.1"/>
+  
+  <!-- Grid pattern representing connected network -->
+  <g stroke="#FFD700" stroke-width="1" stroke-opacity="0.2">
+    <line x1="0" y1="50" x2="1200" y2="50"/>
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="150" x2="1200" y2="150"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="250" x2="1200" y2="250"/>
+    
+    <line x1="100" y1="0" x2="100" y2="300"/>
+    <line x1="200" y1="0" x2="200" y2="300"/>
+    <line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="400" y1="0" x2="400" y2="300"/>
+    <line x1="500" y1="0" x2="500" y2="300"/>
+    <line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="700" y1="0" x2="700" y2="300"/>
+    <line x1="800" y1="0" x2="800" y2="300"/>
+    <line x1="900" y1="0" x2="900" y2="300"/>
+    <line x1="1000" y1="0" x2="1000" y2="300"/>
+    <line x1="1100" y1="0" x2="1100" y2="300"/>
+  </g>
+  
+  <!-- Stylized map of Delhi -->
+  <path d="M400 100C450 70 500 130 550 100C600 70 650 120 700 90C750 60 800 120 850 90V300H350V120C360 110 370 115 400 100Z" fill="#1A1A1A" fill-opacity="0.1"/>
+  
+  <!-- Communication icons -->
+  <!-- Phone icon -->
+  <g transform="translate(250, 150) scale(2)">
+    <path d="M20 5L15 10L20 15L25 10L20 5Z" fill="#FFD700" fill-opacity="0.5"/>
+    <path d="M15 10C15 10 5 20 5 30C5 40 10 45 20 45C30 45 35 40 35 30C35 20 25 10 25 10" stroke="#FFD700" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Email icon -->
+  <g transform="translate(600, 120) scale(2)">
+    <rect x="5" y="10" width="50" height="30" rx="5" stroke="#FFD700" stroke-width="3" fill="none"/>
+    <path d="M5 15L30 35L55 15" stroke="#FFD700" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Location icon -->
+  <g transform="translate(900, 150) scale(2)">
+    <path d="M30 5C40 5 50 15 50 30C50 50 30 55 30 75C30 55 10 50 10 30C10 15 20 5 30 5Z" stroke="#FFD700" stroke-width="3" fill="#FFD700" fill-opacity="0.3"/>
+    <circle cx="30" cy="25" r="8" fill="#FFD700"/>
+  </g>
+  
+  <!-- Main contact section background -->
+  <rect x="0" y="300" width="1200" height="300" fill="#1A1A1A"/>
+  
+  <!-- Contact form visual representation -->
+  <rect x="150" y="350" width="300" height="200" rx="10" fill="#FFFFFF"/>
+  <rect x="180" y="380" width="240" height="30" rx="5" fill="#F8F8F8" stroke="#FFD700" stroke-width="2"/>
+  <rect x="180" y="430" width="240" height="30" rx="5" fill="#F8F8F8" stroke="#FFD700" stroke-width="2"/>
+  <rect x="180" y="480" width="240" height="30" rx="5" fill="#F8F8F8" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Contact information visual -->
+  <g transform="translate(600, 350)">
+    <!-- Phone item -->
+    <g transform="translate(0, 0)">
+      <circle cx="25" cy="25" r="25" fill="#FFD700"/>
+      <text x="25" y="35" font-family="'Roboto', sans-serif" font-size="20" text-anchor="middle" fill="#1A1A1A">📞</text>
+      <rect x="70" y="10" width="200" height="30" rx="5" fill="#F8F8F8"/>
+      <text x="85" y="30" font-family="'Roboto', sans-serif" font-size="14" fill="#333333">+91 9250044103</text>
+    </g>
+    
+    <!-- Email item -->
+    <g transform="translate(0, 80)">
+      <circle cx="25" cy="25" r="25" fill="#FFD700"/>
+      <text x="25" y="35" font-family="'Roboto', sans-serif" font-size="20" text-anchor="middle" fill="#1A1A1A">✉️</text>
+      <rect x="70" y="10" width="350" height="30" rx="5" fill="#F8F8F8"/>
+      <text x="85" y="30" font-family="'Roboto', sans-serif" font-size="14" fill="#333333">jasmeetlamba4412@gmail.com</text>
+    </g>
+    
+    <!-- Location item -->
+    <g transform="translate(0, 160)">
+      <circle cx="25" cy="25" r="25" fill="#FFD700"/>
+      <text x="25" y="35" font-family="'Roboto', sans-serif" font-size="20" text-anchor="middle" fill="#1A1A1A">📍</text>
+      <rect x="70" y="10" width="200" height="30" rx="5" fill="#F8F8F8"/>
+      <text x="85" y="30" font-family="'Roboto', sans-serif" font-size="14" fill="#333333">Delhi, India</text>
+    </g>
+  </g>
+  
+  <!-- Send button visual -->
+  <rect x="300" y="530" width="150" height="40" rx="20" fill="#FFD700"/>
+  <text x="375" y="555" font-family="'Roboto', sans-serif" font-size="16" text-anchor="middle" fill="#1A1A1A">Send Message</text>
+  
+  <!-- Linear gradient definition -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="600" y1="0" x2="600" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#673AB7"/>
+      <stop offset="1" stop-color="#512DA8"/>
+    </linearGradient>
+  </defs>
+</svg>

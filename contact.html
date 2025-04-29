@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Jaskirat Tour and Travels</title>
+    <meta name="description" content="Contact Jaskirat Tour and Travels for taxi services across Delhi and North India. Book your journey or get a quote today.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/logo.svg" alt="Jaskirat Tour and Travels Logo">
+                    <span>Jaskirat Tour and Travels</span>
+                </a>
+            </div>
+            <nav>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Contact Hero -->
+        <section class="page-hero contact-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Contact Us</h1>
+                    <p>Get in touch with us for bookings, inquiries, or feedback</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Information -->
+        <section class="contact-info-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Call Us</h3>
+                        <p>We're available 24/7 to assist you with your travel needs</p>
+                        <a href="tel:9250044103" class="contact-link">+91 9250044103</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Us</h3>
+                        <p>Send us an email for bookings or inquiries</p>
+                        <a href="mailto:jasmeetlamba4412@gmail.com" class="contact-link">jasmeetlamba4412@gmail.com</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Our Location</h3>
+                        <p>Based in Delhi, serving all of North India</p>
+                        <span class="contact-detail">Delhi, India</span>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Business Hours</h3>
+                        <p>We're available round the clock</p>
+                        <span class="contact-detail">24/7, 365 days</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form and Map -->
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-form-container">
+                        <h2>Send Us a Message</h2>
+                        <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+                        
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" required>
+                                <div class="error-message" id="name-error"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" required>
+                                <div class="error-message" id="email-error"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number <span class="required">*</span></label>
+                                <input type="tel" id="phone" name="phone" required>
+                                <div class="error-message" id="phone-error"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service">Service Required</label>
+                                <select id="service" name="service">
+                                    <option value="">Select a service</option>
+                                    <option value="local-tour">Local City Tour</option>
+                                    <option value="outstation">Outstation Trip</option>
+                                    <option value="airport">Airport Transfer</option>
+                                    <option value="corporate">Corporate Travel</option>
+                                    <option value="event">Event Transportation</option>
+                                    <option value="package">Package Tour</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="date">Travel Date</label>
+                                    <input type="date" id="date" name="date">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="passengers">Number of Passengers</label>
+                                    <input type="number" id="passengers" name="passengers" min="1" max="20">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Your Message <span class="required">*</span></label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <div class="error-message" id="message-error"></div>
+                            </div>
+                            
+                            <div class="form-submit">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                            
+                            <div id="form-success" class="form-success">
+                                Thank you for your message! We will get back to you shortly.
+                            </div>
+                            
+                            <div id="form-error" class="form-error">
+                                Sorry, there was an error submitting your form. Please try again.
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-image">
+                        <img src="assets/contact-bg.svg" alt="Contact Jaskirat Tour and Travels">
+                        <div class="quick-contact">
+                            <h3>Need Immediate Assistance?</h3>
+                            <p>Call us directly for urgent bookings or inquiries</p>
+                            <a href="tel:9250044103" class="phone-number">
+                                <i class="fas fa-phone-alt"></i> +91 9250044103
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How far in advance should I book a taxi?</h3>
+                            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>For local city tours, a day's notice is usually sufficient. For outstation trips, especially during peak seasons, we recommend booking at least 3-5 days in advance to ensure availability of your preferred vehicle.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What payment methods do you accept?</h3>
+                            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We accept cash, bank transfers, and all major digital payment methods including UPI, PayTM, and credit/debit cards. For outstation trips, a nominal advance payment is required to confirm the booking.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Do you provide drivers who speak English?</h3>
+                            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we have drivers who can communicate in Hindi and English. If you require a driver with specific language skills, please mention it during your booking and we will do our best to accommodate your request.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What happens if I need to cancel my booking?</h3>
+                            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our cancellation policy varies based on the type of service and timing. Generally, cancellations made 24 hours or more before the scheduled service are fully refundable. For last-minute cancellations, a nominal fee may apply. Please contact us for specific details.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Do you provide child seats if required?</h3>
+                            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, child seats can be provided upon request. Please mention this requirement when making your booking so we can arrange it for your journey.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Can I make multiple stops during my journey?</h3>
+                            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, multiple stops can be accommodated. For local city tours, stops are typically included in the package. For other services, please discuss your requirements at the time of booking so we can plan accordingly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo.svg" alt="Jaskirat Tour and Travels Logo">
+                    <p>Your Trusted Travel Partner Across North India</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Information</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> <a href="tel:9250044103">+91 9250044103</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:jasmeetlamba4412@gmail.com">jasmeetlamba4412@gmail.com</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> Delhi, India</li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Jaskirat Tour and Travels. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="98" fill="#1A1A1A" stroke="#FFD700" stroke-width="4"/>
+  
+  <!-- "J" Letter -->
+  <path d="M70 60C70 56.134 73.134 53 77 53H93C96.866 53 100 56.134 100 60V110C100 123.255 89.255 134 76 134H70C66.134 134 63 130.866 63 127V120" stroke="#FFD700" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- "T" Letter -->
+  <path d="M110 60H150" stroke="#FFD700" stroke-width="10" stroke-linecap="round"/>
+  <path d="M130 60V127" stroke="#FFD700" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- Taxi Icon -->
+  <path d="M60 150H140C143.314 150 146 152.686 146 156V168C146 171.314 143.314 174 140 174H60C56.6863 174 54 171.314 54 168V156C54 152.686 56.6863 150 60 150Z" fill="#FFD700"/>
+  <rect x="68" y="158" width="8" height="8" rx="2" fill="#1A1A1A"/>
+  <rect x="124" y="158" width="8" height="8" rx="2" fill="#1A1A1A"/>
+  <path d="M70 150L80 138H120L130 150" fill="#FFD700"/>
+  
+  <!-- Stars -->
+  <path d="M44 40L46.7942 45.6115H52.8885L48.0471 49.0279L50.8414 54.6393L44 51.2229L37.1586 54.6393L39.9529 49.0279L35.1115 45.6115H41.2058L44 40Z" fill="#FFD700"/>
+  <path d="M156 40L158.794 45.6115H164.889L160.047 49.0279L162.841 54.6393L156 51.2229L149.159 54.6393L151.953 49.0279L147.111 45.6115H153.206L156 40Z" fill="#FFD700"/>
+  
+  <!-- Road Lines -->
+  <rect x="85" y="174" width="30" height="4" fill="white"/>
+  <rect x="70" y="183" width="60" height="4" fill="white"/>
+</svg>

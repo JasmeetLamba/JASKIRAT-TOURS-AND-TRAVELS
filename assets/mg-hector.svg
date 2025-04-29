@@ -1,0 +1,60 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#F8F8F8"/>
+  
+  <!-- Car body - MG Hector -->
+  <g transform="translate(80, 135) scale(1.2)">
+    <!-- Main body - SUV shape -->
+    <path d="M20 130H380C380 130 390 130 390 120V90C390 80 385 75 380 70L330 20C320 10 310 10 300 10H90C80 10 70 10 60 20L20 70C15 75 10 80 10 90V120C10 130 20 130 20 130Z" fill="#212121"/>
+    <!-- Roof -->
+    <path d="M80 20H300C310 20 315 25 320 35L360 80H30L70 35C75 25 80 20 90 20H80Z" fill="#111111"/>
+    
+    <!-- Windows -->
+    <path d="M80 30H150V75H50L80 30Z" fill="#87CEEB" fill-opacity="0.7"/>
+    <path d="M160 30H230V75H160V30Z" fill="#87CEEB" fill-opacity="0.7"/>
+    <path d="M240 30H310V75H240V30Z" fill="#87CEEB" fill-opacity="0.7"/>
+    
+    <!-- Details - MG Grill -->
+    <rect x="140" y="87" width="120" height="10" rx="5" fill="#FFFFFF"/>
+    <path d="M145 92H255" stroke="#1A1A1A" stroke-width="2"/>
+    
+    <!-- SUV Details -->
+    <path d="M20 90H370L365 105H25L20 90Z" fill="#2E2E2E"/>
+    
+    <!-- Lights -->
+    <rect x="30" y="75" width="40" height="12" rx="6" fill="#FFCC80"/>
+    <rect x="330" y="75" width="40" height="12" rx="6" fill="#FF8A80"/>
+    
+    <!-- Wheels - larger for SUV -->
+    <circle cx="100" cy="130" r="30" fill="#1A1A1A"/>
+    <circle cx="100" cy="130" r="18" fill="#555555"/>
+    <circle cx="300" cy="130" r="30" fill="#1A1A1A"/>
+    <circle cx="300" cy="130" r="18" fill="#555555"/>
+    
+    <!-- MG badge -->
+    <rect x="190" y="105" width="20" height="15" rx="2" fill="#FFFFFF"/>
+    <text x="200" y="115" font-family="'Roboto', sans-serif" font-size="10" text-anchor="middle" fill="#1A1A1A">MG</text>
+  </g>
+  
+  <!-- Text label -->
+  <text x="300" y="350" font-family="'Roboto', sans-serif" font-size="24" text-anchor="middle" fill="#1A1A1A">MG Hector</text>
+  
+  <!-- Feature highlights with icons -->
+  <g transform="translate(120, 285)">
+    <circle cx="15" cy="15" r="15" fill="#FFD700"/>
+    <text x="15" y="21" font-family="'Roboto', sans-serif" font-size="18" text-anchor="middle" fill="#1A1A1A">5</text>
+    <text x="40" y="20" font-family="'Roboto', sans-serif" font-size="16" fill="#333333">Passengers</text>
+  </g>
+  
+  <g transform="translate(250, 285)">
+    <circle cx="15" cy="15" r="15" fill="#FFD700"/>
+    <text x="15" y="21" font-family="'Roboto', sans-serif" font-size="18" text-anchor="middle" fill="#1A1A1A">3</text>
+    <text x="40" y="20" font-family="'Roboto', sans-serif" font-size="16" fill="#333333">Luggage</text>
+  </g>
+  
+  <g transform="translate(380, 285)">
+    <circle cx="15" cy="15" r="15" fill="#FFD700"/>
+    <text x="15" y="21" font-family="'Roboto', sans-serif" font-size="18" text-anchor="middle" fill="#1A1A1A">AC</text>
+    <text x="40" y="20" font-family="'Roboto', sans-serif" font-size="16" fill="#333333">Premium</text>
+  </g>
+</svg>

@@ -1,0 +1,70 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="300" cy="300" r="290" fill="#F8F8F8"/>
+  <circle cx="300" cy="300" r="290" stroke="#FFD700" stroke-width="5"/>
+  
+  <!-- Stylized businessman portrait -->
+  <!-- Head and face -->
+  <circle cx="300" cy="220" r="110" fill="#E6B89C"/>
+  
+  <!-- Hair -->
+  <path d="M210 170C220 130 250 110 300 110C350 110 380 130 390 170C390 170 380 150 340 140C300 130 260 140 210 170Z" fill="#1A1A1A"/>
+  <path d="M210 170C210 170 220 140 240 130C260 120 270 125 270 125L260 180L210 170Z" fill="#1A1A1A"/>
+  <path d="M390 170C390 170 380 140 360 130C340 120 330 125 330 125L340 180L390 170Z" fill="#1A1A1A"/>
+  
+  <!-- Eyebrows -->
+  <path d="M250 190C250 190 270 180 290 190" stroke="#1A1A1A" stroke-width="5" stroke-linecap="round"/>
+  <path d="M350 190C350 190 330 180 310 190" stroke="#1A1A1A" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="270" cy="210" rx="15" ry="10" fill="#1A1A1A"/>
+  <ellipse cx="330" cy="210" rx="15" ry="10" fill="#1A1A1A"/>
+  
+  <!-- Nose -->
+  <path d="M300 220L310 250H290L300 220Z" fill="#D0957B"/>
+  
+  <!-- Smile -->
+  <path d="M260 270C260 270 280 290 300 290C320 290 340 270 340 270" stroke="#1A1A1A" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- Ears -->
+  <ellipse cx="190" cy="220" rx="20" ry="30" fill="#E6B89C"/>
+  <ellipse cx="410" cy="220" rx="20" ry="30" fill="#E6B89C"/>
+  
+  <!-- Suit jacket -->
+  <path d="M200 330V500H400V330C380 370 360 390 300 390C240 390 220 370 200 330Z" fill="#1A1A1A"/>
+  
+  <!-- Shirt -->
+  <path d="M250 330V460H350V330C330 355 320 365 300 365C280 365 270 355 250 330Z" fill="#FFFFFF"/>
+  
+  <!-- Tie -->
+  <path d="M290 330V460H310V330L300 350L290 330Z" fill="#FFD700"/>
+  
+  <!-- Neck -->
+  <path d="M260 300C260 300 270 330 300 330C330 330 340 300 340 300V330H260V300Z" fill="#E6B89C"/>
+  
+  <!-- Shoulders -->
+  <path d="M200 330C200 330 180 300 190 280C200 260 230 250 230 250L250 330H200Z" fill="#1A1A1A"/>
+  <path d="M400 330C400 330 420 300 410 280C400 260 370 250 370 250L350 330H400Z" fill="#1A1A1A"/>
+  
+  <!-- Details -->
+  <!-- Pocket square -->
+  <rect x="360" y="340" width="20" height="20" fill="#FFD700"/>
+  
+  <!-- Buttons -->
+  <circle cx="300" cy="400" r="5" fill="#FFD700"/>
+  <circle cx="300" cy="430" r="5" fill="#FFD700"/>
+  
+  <!-- Lapel -->
+  <path d="M260 330L270 370L300 340L330 370L340 330" stroke="#333333" stroke-width="3"/>
+  
+  <!-- Glasses -->
+  <circle cx="270" cy="210" r="25" stroke="#FFD700" stroke-width="3" fill="none"/>
+  <circle cx="330" cy="210" r="25" stroke="#FFD700" stroke-width="3" fill="none"/>
+  <path d="M295 210H305" stroke="#FFD700" stroke-width="3"/>
+  <path d="M245 210H210" stroke="#FFD700" stroke-width="3"/>
+  <path d="M355 210H390" stroke="#FFD700" stroke-width="3"/>
+  
+  <!-- Name label -->
+  <rect x="200" y="520" width="200" height="40" rx="20" fill="#FFD700"/>
+  <text x="300" y="545" font-family="'Roboto', sans-serif" font-size="16" text-anchor="middle" fill="#1A1A1A">Pankaj Lamba - Founder</text>
+</svg>

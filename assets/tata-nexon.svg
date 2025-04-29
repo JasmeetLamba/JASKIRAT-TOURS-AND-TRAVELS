@@ -1,0 +1,61 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#F8F8F8"/>
+  
+  <!-- Car body - Tata Nexon (compact SUV) -->
+  <g transform="translate(60, 130) scale(1.3)">
+    <!-- Main body - Compact SUV shape -->
+    <path d="M40 130H360C360 130 370 130 370 120V90C370 80 365 75 360 70L330 20C320 10 310 10 300 10H100C90 10 80 10 70 20L40 70C35 75 30 80 30 90V120C30 130 40 130 40 130Z" fill="#E74C3C"/>
+    
+    <!-- Roof - characteristic curved roof of Nexon -->
+    <path d="M85 20H295C305 20 310 25 315 35L350 80H45L75 35C80 25 85 20 95 20H85Z" fill="#FFFFFF"/>
+    
+    <!-- Windows -->
+    <path d="M85 30H150V75H55L85 30Z" fill="#87CEEB" fill-opacity="0.7"/>
+    <path d="M160 30H230V75H160V30Z" fill="#87CEEB" fill-opacity="0.7"/>
+    <path d="M240 30H300V75H240V30Z" fill="#87CEEB" fill-opacity="0.7"/>
+    
+    <!-- Details - Tata's Humanity Line grille -->
+    <path d="M140 80H260V95H140V80Z" fill="#333333"/>
+    <path d="M150 85H250V90H150V85Z" fill="#666666"/>
+    
+    <!-- SUV Details -->
+    <path d="M40 95H350L345 105H45L40 95Z" fill="#2E2E2E"/>
+    
+    <!-- Lights - Nexon's distinctive headlights -->
+    <rect x="50" y="75" width="30" height="10" rx="5" fill="#FFCC80"/>
+    <rect x="320" y="75" width="30" height="10" rx="5" fill="#FF8A80"/>
+    
+    <!-- Wheels -->
+    <circle cx="110" cy="130" r="26" fill="#1A1A1A"/>
+    <circle cx="110" cy="130" r="16" fill="#555555"/>
+    <circle cx="290" cy="130" r="26" fill="#1A1A1A"/>
+    <circle cx="290" cy="130" r="16" fill="#555555"/>
+    
+    <!-- Tata logo (stylized T) -->
+    <rect x="195" y="87" width="10" height="3" fill="#FFFFFF"/>
+    <rect x="198" y="82" width="4" height="13" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Text label -->
+  <text x="300" y="350" font-family="'Roboto', sans-serif" font-size="24" text-anchor="middle" fill="#1A1A1A">Tata Nexon</text>
+  
+  <!-- Feature highlights with icons -->
+  <g transform="translate(120, 285)">
+    <circle cx="15" cy="15" r="15" fill="#FFD700"/>
+    <text x="15" y="21" font-family="'Roboto', sans-serif" font-size="18" text-anchor="middle" fill="#1A1A1A">5</text>
+    <text x="40" y="20" font-family="'Roboto', sans-serif" font-size="16" fill="#333333">Passengers</text>
+  </g>
+  
+  <g transform="translate(250, 285)">
+    <circle cx="15" cy="15" r="15" fill="#FFD700"/>
+    <text x="15" y="21" font-family="'Roboto', sans-serif" font-size="18" text-anchor="middle" fill="#1A1A1A">3</text>
+    <text x="40" y="20" font-family="'Roboto', sans-serif" font-size="16" fill="#333333">Luggage</text>
+  </g>
+  
+  <g transform="translate(380, 285)">
+    <circle cx="15" cy="15" r="15" fill="#FFD700"/>
+    <text x="15" y="21" font-family="'Roboto', sans-serif" font-size="18" text-anchor="middle" fill="#1A1A1A">AC</text>
+    <text x="40" y="20" font-family="'Roboto', sans-serif" font-size="16" fill="#333333">Modern</text>
+  </g>
+</svg>

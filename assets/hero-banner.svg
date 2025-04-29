@@ -1,0 +1,60 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradients -->
+  <rect width="800" height="500" fill="#F8F8F8"/>
+  <path d="M0 0H800V500H0V0Z" fill="url(#paint0_linear)"/>
+  
+  <!-- Hills/mountains in background -->
+  <path d="M0 280L133 200L267 250L400 180L533 240L667 180L800 240V500H0V280Z" fill="#1A1A1A" fill-opacity="0.1"/>
+  <path d="M0 320L133 260L267 300L400 240L533 290L667 230L800 290V500H0V320Z" fill="#1A1A1A" fill-opacity="0.15"/>
+  
+  <!-- Road -->
+  <path d="M0 380H800V500H0V380Z" fill="#1A1A1A"/>
+  <path d="M0 375H800V385H0V375Z" fill="#FFD700"/>
+  
+  <!-- Road markings -->
+  <rect x="50" y="435" width="60" height="10" fill="white"/>
+  <rect x="170" y="435" width="60" height="10" fill="white"/>
+  <rect x="290" y="435" width="60" height="10" fill="white"/>
+  <rect x="410" y="435" width="60" height="10" fill="white"/>
+  <rect x="530" y="435" width="60" height="10" fill="white"/>
+  <rect x="650" y="435" width="60" height="10" fill="white"/>
+  <rect x="770" y="435" width="60" height="10" fill="white"/>
+  
+  <!-- Premium Sedan/Taxi vehicle -->
+  <g transform="translate(500, 350) scale(0.9)">
+    <!-- Car body -->
+    <path d="M50 100H300C310 100 320 90 330 70L340 40C343 30 350 30 360 30H380C390 30 395 35 395 45V100H420C430 100 430 110 430 120V140C430 150 420 150 410 150H50C40 150 30 150 30 140V120C30 110 40 100 50 100Z" fill="#333333"/>
+    <path d="M40 100L100 40H340L400 100H40Z" fill="#222222"/>
+    
+    <!-- Windows -->
+    <path d="M110 45H190V85H100L110 45Z" fill="#87CEEB" fill-opacity="0.7"/>
+    <path d="M200 45H320V85H200V45Z" fill="#87CEEB" fill-opacity="0.7"/>
+    <path d="M330 45H340L390 95H330V45Z" fill="#87CEEB" fill-opacity="0.7"/>
+    
+    <!-- Lights -->
+    <ellipse cx="80" cy="110" rx="20" ry="10" fill="#FFD700"/>
+    <ellipse cx="365" cy="110" rx="20" ry="10" fill="#FF5555"/>
+    
+    <!-- Wheels -->
+    <circle cx="120" cy="150" r="30" fill="#1A1A1A"/>
+    <circle cx="120" cy="150" r="15" fill="#555555"/>
+    <circle cx="320" cy="150" r="30" fill="#1A1A1A"/>
+    <circle cx="320" cy="150" r="15" fill="#555555"/>
+    
+    <!-- Details -->
+    <rect x="215" y="95" width="30" height="5" fill="#FFD700"/>
+    <rect x="130" y="115" width="180" height="5" fill="#FFD700"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="100" r="40" fill="#FFD700" fill-opacity="0.2"/>
+  <circle cx="700" cy="200" r="60" fill="#FFD700" fill-opacity="0.15"/>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="400" y1="0" x2="400" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F8F8"/>
+      <stop offset="1" stop-color="#E0E0E0"/>
+    </linearGradient>
+  </defs>
+</svg>
